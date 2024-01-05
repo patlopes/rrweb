@@ -1,5 +1,36 @@
 # rrweb
 
+## 2.0.0-alpha.12
+
+### Minor Changes
+
+- [#1310](https://github.com/rrweb-io/rrweb/pull/1310) [`7c0dc9d`](https://github.com/rrweb-io/rrweb/commit/7c0dc9dfe1564c9d6624557c5b394e7844955882) Thanks [@benjackwhite](https://github.com/benjackwhite)! - Extends maskTextFn to pass the HTMLElement to the deciding function
+
+### Patch Changes
+
+- [#1327](https://github.com/rrweb-io/rrweb/pull/1327) [`57a940a`](https://github.com/rrweb-io/rrweb/commit/57a940afac0bdd14cd82937915d53110b5311673) Thanks [@mydea](https://github.com/mydea)! - fix: Fix checking for `patchTarget` in `initAdoptedStyleSheetObserver`
+
+- [#1155](https://github.com/rrweb-io/rrweb/pull/1155) [`8aea5b0`](https://github.com/rrweb-io/rrweb/commit/8aea5b00a4dfe5a6f59bd2ae72bb624f45e51e81) Thanks [@YunFeng0817](https://github.com/YunFeng0817)! - Feat: Add support for replaying :defined pseudo-class of custom elements
+
+- [#1340](https://github.com/rrweb-io/rrweb/pull/1340) [`9c6edfe`](https://github.com/rrweb-io/rrweb/commit/9c6edfe2261680b4e92284be69f9d183b1eca8f4) Thanks [@mydea](https://github.com/mydea)! - ref: Avoid unnecessary cloning of objects or arrays
+
+- [#1324](https://github.com/rrweb-io/rrweb/pull/1324) [`1fe39ab`](https://github.com/rrweb-io/rrweb/commit/1fe39ab0db7f5d2b04f4a4f39fb5c0cfee33a1f8) Thanks [@Belen-Luo](https://github.com/Belen-Luo)! - export eventWithTime for consumption by typescript code
+
+- [#1343](https://github.com/rrweb-io/rrweb/pull/1343) [`05478c3`](https://github.com/rrweb-io/rrweb/commit/05478c36dde03a118099783d908bb3e465e9859c) Thanks [@mdellanoce](https://github.com/mdellanoce)! - use WeakMap for faster attributeCursor lookup while processing attribute mutations
+
+- [#1272](https://github.com/rrweb-io/rrweb/pull/1272) [`58c9104`](https://github.com/rrweb-io/rrweb/commit/58c9104eddc8b7994a067a97daae5684e42f892f) Thanks [@eoghanmurray](https://github.com/eoghanmurray)! - Perf: Avoid creation of intermediary array when iterating over style rules
+
+- [#1311](https://github.com/rrweb-io/rrweb/pull/1311) [`980a38c`](https://github.com/rrweb-io/rrweb/commit/980a38c816d763833fc3491f56d03c959a41122d) Thanks [@eoghanmurray](https://github.com/eoghanmurray)! - Add 'recordDOM' config option to turn off recording of DOM (making recordings unreplayable). Specialist use case e.g. only heatmap click/scroll recording
+
+- [#1351](https://github.com/rrweb-io/rrweb/pull/1351) [`a2be77b`](https://github.com/rrweb-io/rrweb/commit/a2be77b82826c4be0e7f3c7c9f7ee50476d5f6f8) Thanks [@eoghanmurray](https://github.com/eoghanmurray)! - Don't double-record the values of <textarea>s when they already have some content prefilled #1301
+
+- [#1349](https://github.com/rrweb-io/rrweb/pull/1349) [`07ac5c9`](https://github.com/rrweb-io/rrweb/commit/07ac5c9e1371824ec3ffb705f9250bbe10f4b73e) Thanks [@eoghanmurray](https://github.com/eoghanmurray)! - Snapshot performance when masking text: Avoid the repeated calls to `closest` when recursing through the DOM
+
+- Updated dependencies [[`58c9104`](https://github.com/rrweb-io/rrweb/commit/58c9104eddc8b7994a067a97daae5684e42f892f), [`a2be77b`](https://github.com/rrweb-io/rrweb/commit/a2be77b82826c4be0e7f3c7c9f7ee50476d5f6f8), [`8aea5b0`](https://github.com/rrweb-io/rrweb/commit/8aea5b00a4dfe5a6f59bd2ae72bb624f45e51e81), [`7c0dc9d`](https://github.com/rrweb-io/rrweb/commit/7c0dc9dfe1564c9d6624557c5b394e7844955882), [`07ac5c9`](https://github.com/rrweb-io/rrweb/commit/07ac5c9e1371824ec3ffb705f9250bbe10f4b73e)]:
+  - rrweb-snapshot@2.0.0-alpha.12
+  - rrdom@2.0.0-alpha.12
+  - @rrweb/types@2.0.0-alpha.12
+
 ## 2.0.0-alpha.11
 
 ### Patch Changes
